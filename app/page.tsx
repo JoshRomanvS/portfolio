@@ -15,6 +15,7 @@ export default function HomePage() {
           <li key={name}>{name}</li>
         ))}
       </ul>
+      <p className='text-yellow'>Yellow</p>
       <LikeButton />
     </div>
   )
